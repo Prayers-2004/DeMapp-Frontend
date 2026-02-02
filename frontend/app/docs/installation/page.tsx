@@ -5,8 +5,8 @@ import { ChevronRight, Download, CheckCircle, Terminal, Copy } from "lucide-reac
 
 export default function InstallationPage() {
   return (
-    <div className="flex">
-      <div className="flex-1 max-w-4xl px-8 py-10">
+    <div className="flex justify-center">
+      <div className="flex-1 max-w-5xl px-6 lg:px-10 py-10">
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
           <Link href="/docs" className="hover:text-gray-300">Docs</Link>
           <ChevronRight className="w-4 h-4" />
@@ -188,7 +188,7 @@ console.log('Environment supported:', isSupported);
         </div>
       </div>
 
-      <aside className="hidden xl:block w-64 flex-shrink-0 p-6 sticky top-[105px] h-[calc(100vh-105px)]">
+      <aside className="hidden lg:block w-56 flex-shrink-0 p-4 sticky top-[105px] h-[calc(100vh-105px)]">
         <div className="mb-6">
           <h4 className="text-sm font-medium text-gray-400 mb-3 flex items-center gap-2">
             <span className="w-4 h-0.5 bg-gray-700" />
