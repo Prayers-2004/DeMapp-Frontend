@@ -52,7 +52,7 @@ export function Navbar() {
               />
             </div>
             <span className="font-[var(--font-bebas)] text-xl md:text-2xl tracking-wide text-gray-900 group-hover:text-accent transition-colors duration-200">
-              DeMapp<sup className="text-gray-400 text-xs ml-0.5">™</sup>
+              DeMapp
             </span>
           </Link>
 

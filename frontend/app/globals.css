@@ -234,3 +234,29 @@
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.8);
 }
+
+/* Documentation prose styling */
+.prose-invert {
+  --tw-prose-body: #d1d5db;
+  --tw-prose-headings: #ffffff;
+  --tw-prose-links: #fb923c;
+  --tw-prose-code: #fb923c;
+}
+
+/* Scrollbar styling for docs */
+.docs-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.docs-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.docs-scrollbar::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+.docs-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
