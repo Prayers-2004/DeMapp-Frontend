@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils"
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "https://docs.demapp.io", label: "Docs", external: true },
-  { href: "https://github.com/demapp", label: "GitHub", external: true },
+  { href: "/docs", label: "Docs" },
+  { href: "https://github.com/Prayers-2004/DeMapp-Frontend", label: "GitHub", external: true },
 ]
 
 export function Navbar() {
